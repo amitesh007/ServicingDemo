@@ -1,0 +1,472 @@
+{
+    "Response": {
+        "@success": "true",
+        "Result": {
+            "LiqBusinessObjects": {
+                "@class": "Loan",
+                "@ownerClass": "None",
+                "@ownerId": "",
+                "LiqBusinessObject": [
+                    {
+                        "@name": "Loan - Libor Option Loan (VS BORROWE00371)",
+                        "@objectType": "OST",
+                        "@className": "Loan",
+                        "@objectId": "K07LTI6V",
+                        "group": [
+                            {
+                                "@name": "",
+                                "item": [
+                                    {
+                                        "@attribute": "borrowerName",
+                                        "@valueType": "String",
+                                        "@value": "VS BORROWER_5292",
+                                        "@label": "Borrower",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@linkClass": "Customer",
+                                        "@linkId": "YG7LO03U",
+                                        "@linkTarget": "_new"
+                                    },
+                                    {
+                                        "@attribute": "dealName",
+                                        "@valueType": "String",
+                                        "@value": "SAP_DEAL53",
+                                        "@label": "Deal",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@linkClass": "Deal",
+                                        "@linkId": "YG7LO11Y",
+                                        "@linkTarget": "_top"
+                                    },
+                                    {
+                                        "@attribute": "facilityName",
+                                        "@valueType": "String",
+                                        "@value": "DECA_FLTY7",
+                                        "@label": "Facility",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@linkClass": "Facility",
+                                        "@linkId": "YG7LO230",
+                                        "@linkTarget": "_top"
+                                    },
+                                    {
+                                        "@attribute": "alias",
+                                        "@valueType": "String",
+                                        "@value": "VS BORROWE00371",
+                                        "@label": "Alias",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "status",
+                                        "@valueType": "String",
+                                        "@value": "Active",
+                                        "@label": "Status",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "pricingOption",
+                                        "@valueType": "String",
+                                        "@value": "Libor Option",
+                                        "@label": "Pricing Option",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "currency",
+                                        "@valueType": "String",
+                                        "@value": "USD",
+                                        "@label": "CCY",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "amount",
+                                        "@valueType": "Money",
+                                        "@value": "500.00",
+                                        "@label": "Amount",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@valueCCY": "USD"
+                                    },
+                                    {
+                                        "@attribute": "effectiveDate",
+                                        "@valueType": "LiqDate",
+                                        "@value": "08-Sep-2004",
+                                        "@label": "Effective Date",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "rate",
+                                        "@valueType": "String",
+                                        "@value": "5",
+                                        "@label": "All-In Rate (%)",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "rateBasis",
+                                        "@valueType": "String",
+                                        "@value": "Actual/360",
+                                        "@label": "Rate Basis",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "repricingDate",
+                                        "@valueType": "LiqDate",
+                                        "@value": "08-Dec-2004",
+                                        "@label": "Repricing",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "maturityDate",
+                                        "@valueType": "LiqDate",
+                                        "@value": "08-Sep-2010",
+                                        "@label": "Maturity",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "scheduleItems",
+                                        "@valueType": "List",
+                                        "@valueList":
+                                            {
+                                            "LiqBusinessObject": [
+                                                {
+                                                    "@name": "Loan Payment Schedule Item - 08-Dec-2004",
+                                                    "@objectType": "SCI",
+                                                    "@className": "LoanPaymentScheduleItem",
+                                                    "@objectId": "K07LTIGS",
+                                                    "group": [
+                                                        {
+                                                            "@name": "",
+                                                            "item": [
+                                                                {
+                                                                    "@attribute": "unscheduledIndicator",
+                                                                    "@valueType": "Boolean",
+                                                                    "@value": "No",
+                                                                    "@label": "Unscheduled Indicator",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "payment",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "-500.00",
+                                                                    "@label": "Payment",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "currency",
+                                                                    "@valueType": "String",
+                                                                    "@value": "USD",
+                                                                    "@label": "Currency",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "interest",
+                                                                    "@valueType": "String",
+                                                                    "@value": "",
+                                                                    "@label": "Interest",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "unpaidInterestAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "0.00",
+                                                                    "@label": "Unpaid Interest Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "principal",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "-500.00",
+                                                                    "@label": "Principal",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "unpaidPrincipalAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "500.00",
+                                                                    "@label": "Unpaid Principal Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "actualDueDate",
+                                                                    "@valueType": "String",
+                                                                    "@value": "",
+                                                                    "@label": "Actual Due Date",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "adjustedDueDate",
+                                                                    "@valueType": "LiqDate",
+                                                                    "@value": "08-Dec-2004",
+                                                                    "@label": "Adjusted Due Date",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "remainingPrincipalBalance",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "0.00",
+                                                                    "@label": "Remaining Principal Balance",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "hostNetPaymentAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "-375.00",
+                                                                    "@label": "Host Net Payment Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "hostNetInterestAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "0.00",
+                                                                    "@label": "Host Net Interest Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "hostNetUnpaidInterestAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "0.00",
+                                                                    "@label": "Host Net Unpaid Interest Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "hostPrincipal",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "-375.00",
+                                                                    "@label": "Host Principal",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "hostNetUnpaidPrincipalAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "375.00",
+                                                                    "@label": "Host Net Unpaid Principal Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "hostRemainingNetAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "0.00",
+                                                                    "@label": "Host Remaining Net Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                },
+                                                                {
+                                                                    "@attribute": "originalPercentOfBalance",
+                                                                    "@valueType": "BigDecimal",
+                                                                    "@value": "1",
+                                                                    "@label": "Original Percent Of Balance",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "maturityDate",
+                                                                    "@valueType": "LiqDate",
+                                                                    "@value": "08-Sep-2010",
+                                                                    "@label": "Maturity Date",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N"
+                                                                },
+                                                                {
+                                                                    "@attribute": "principalBilledAmount",
+                                                                    "@valueType": "Money",
+                                                                    "@value": "500.00",
+                                                                    "@label": "Principal Billed Amount",
+                                                                    "@mandatory": "N",
+                                                                    "@readonly": "N",
+                                                                    "@valueCCY": "USD"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "@label": "scheduleItems",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "borrowerId",
+                                        "@valueType": "String",
+                                        "@value": "YG7LO03U",
+                                        "@label": "Borrower ID",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "facilityName",
+                                        "@valueType": "String",
+                                        "@value": "DECA_FLTY7",
+                                        "@label": "Facility",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "facilityId",
+                                        "@valueType": "String",
+                                        "@value": "YG7LO230",
+                                        "@label": "Facility Id",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "billInvoiceId",
+                                        "@valueType": "String",
+                                        "@value": "K07LTI6V",
+                                        "@label": "billInvoiceId",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "oid",
+                                        "@valueType": "String",
+                                        "@value": "1b69b2e7890040f5",
+                                        "@label": "OID",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "paymentStatus",
+                                        "@valueType": "String",
+                                        "@value": "Past due Principal and Interest",
+                                        "@label": "Payment Status",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "currentAmount",
+                                        "@valueType": "Money",
+                                        "@value": "500.00",
+                                        "@label": "Current Principal Amount ",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@valueCCY": "USD"
+                                    },
+                                    {
+                                        "@attribute": "performingStatus",
+                                        "@valueType": "String",
+                                        "@value": "Non-Accrual",
+                                        "@label": "Performing Status",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "lateChargeRuleId",
+                                        "@valueType": "String",
+                                        "@value": "",
+                                        "@label": "Late Charge Rule",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "autoChargePrepaymentFeeIndicator",
+                                        "@valueType": "Boolean",
+                                        "@value": "No",
+                                        "@label": "AutoCharge Prepayment Penalty",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "riskTypeDescription",
+                                        "@valueType": "String",
+                                        "@value": "Loans",
+                                        "@label": "Risk Type",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "glMappingClassCodeDisplay",
+                                        "@valueType": "String",
+                                        "@value": "OTHER - All Other Loans",
+                                        "@label": "GL Mapping",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "interestDueDate",
+                                        "@valueType": "LiqDate",
+                                        "@value": "08-Nov-2005",
+                                        "@label": "Interest Due Date",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "accrualPeriodDescription",
+                                        "@valueType": "String",
+                                        "@value": "Monthly",
+                                        "@label": "Interest Frequency",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    },
+                                    {
+                                        "@attribute": "currentCycleDue",
+                                        "@valueType": "Money",
+                                        "@value": "2.08",
+                                        "@label": "Current Cycle Due",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@valueCCY": "USD"
+                                    },
+                                    {
+                                        "@attribute": "currentPerDiemAmount",
+                                        "@valueType": "Money",
+                                        "@value": "0.07",
+                                        "@label": "Per Diem",
+                                        "@mandatory": "N",
+                                        "@readonly": "N",
+                                        "@valueCCY": "USD"
+                                    },
+                                    {
+                                        "@attribute": "escrowAccount",
+                                        "@valueType": "String",
+                                        "@value": "",
+                                        "@label": "Escrow Account",
+                                        "@mandatory": "N",
+                                        "@readonly": "N"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "Messages": {
+            "Message": ""
+        }
+    }
+}
